@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-with open(r"C:\Users\hp\Downloads\Asteroid_Hazard_Prediction.pkl", 'rb') as file:
+with open(r"C:\Users\hp\Documents\GitHub\Asteroid-Hazard-Prediction\models\Asteroid_Hazard_Prediction.pkl", 'rb') as file:
     data = pickle.load(file)
 
 model = data['model']
