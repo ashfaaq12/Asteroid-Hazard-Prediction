@@ -10,7 +10,7 @@ scaler = data['scaler']
 
 
 def main():
-    st.title("Asteroid Hazard Prediction Web App")
+    st.title("Asteroid Hazard Prediction")
     st.write("""
     This app predicts whether an asteroid is hazardous based on various features like diameter, velocity, and miss distance.
     """)
